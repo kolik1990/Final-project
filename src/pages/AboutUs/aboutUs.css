@@ -1,0 +1,16 @@
+.aboutUs {
+  font-size: 22px;
+  line-height: 30px;
+}
+.aboutUs__wrap {
+  padding: 0 20px;
+}
+.aboutUsImg {
+  float: right;
+  margin: 20px;
+}
+.aboutUsBrands {
+  margin-top: 20px;
+  width: 100%;
+  height: 550px;
+}

@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.nav a {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}

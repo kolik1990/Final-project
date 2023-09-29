@@ -1,0 +1,35 @@
+.footer {
+  flex: 0 0 auto;
+}
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  padding: 40px;
+  padding-right: 100px;
+}
+.social__title {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.social__text {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.703);
+  font-size: 18px;
+  cursor: pointer;
+}

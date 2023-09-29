@@ -1,0 +1,21 @@
+.search__form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+.search {
+  width: 30%;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(59, 59, 59);
+}
+.search:focus {
+  outline: 2px solid #e5c643;
+  border: none;
+}
+.search:placeholder-shown {
+  padding-left: 5px;
+}

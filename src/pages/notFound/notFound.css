@@ -1,0 +1,23 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: rgb(60, 58, 67);
+  color: white;
+  height: 500px;
+}
+.notFound__title {
+  font-size: 80px;
+  font-weight: bold;
+  color: #e5c643;
+}
+.notFound__title + h5 {
+  font-size: 20px;
+}
+.notFound__text {
+  font-size: 18px;
+  padding-top: 15px;
+  border-top: 1px solid grey;
+}

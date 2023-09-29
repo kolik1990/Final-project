@@ -1,0 +1,24 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5c643;
+  padding: 50px 0;
+  color: white;
+}
+.join__title {
+  padding-bottom: 35px;
+}
+.join__text {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.join__input {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 274px;
+  height: 40px;
+  font-size: 16px;
+}

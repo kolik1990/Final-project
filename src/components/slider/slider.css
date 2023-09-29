@@ -1,0 +1,25 @@
+.slider {
+  max-width: 1370px;
+  height: 500px;
+
+  margin: 20px auto 0;
+}
+.slider__title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.slider img {
+  height: 400px;
+  object-fit: contain;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.slick-slider {
+  margin: 0 auto;
+}
+.slick-next:before,
+.slick-prev:before {
+  color: black;
+}

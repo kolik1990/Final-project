@@ -1,0 +1,35 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 20px 70px;
+  background-color: rgb(224, 245, 245);
+  border-radius: 10px;
+}
+.info__title {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 5;
+}
+.info__title::before {
+  display: block;
+  position: relative;
+  top: 223px;
+  left: -10px;
+  content: "";
+  width: 250px;
+  height: 70px;
+  background-color: #ebd96b;
+  transform: rotate(-4deg);
+  z-index: -1;
+}
+
+.info__text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.info__text + .btn {
+  margin-left: 50px;
+}
