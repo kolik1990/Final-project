@@ -1,13 +1,28 @@
 {
   "files": {
     "main.css": "/Final-project/static/css/main.aa6cbdf7.css",
-    "main.js": "/Final-project/static/js/main.5dade22d.js",
+    "main.js": "/Final-project/static/js/main.189aaad6.js",
+    "static/media/brands2.jpg": "/Final-project/static/media/brands2.8874730251b251739146.jpg",
+    "static/media/mobileApp.png": "/Final-project/static/media/mobileApp.904b255a1b692b1e7c25.png",
+    "static/media/info.png": "/Final-project/static/media/info.63ae5169a67030c96f25.png",
+    "static/media/googlePlay.svg": "/Final-project/static/media/googlePlay.dcfc7f95c843cfecc3495acafd6c9cc3.svg",
+    "static/media/aboutUs.png": "/Final-project/static/media/aboutUs.b0247d116534f4c14f73.png",
+    "static/media/Brands.svg": "/Final-project/static/media/Brands.88bfb9fa369e2a8ae5cb00d10d729c85.svg",
+    "static/media/comingSoon.png": "/Final-project/static/media/comingSoon.c6305f1cd034db2a22ea.png",
+    "static/media/appStore.svg": "/Final-project/static/media/appStore.9acbf542fa2314318a22b26ef923408b.svg",
+    "static/media/cart.svg": "/Final-project/static/media/cart.76ed6be6592e15d8d68a25f3c88e3fad.svg",
+    "static/media/logo2.svg": "/Final-project/static/media/logo2.e20b03c22cb1b1ecd0cf40de26aa6d0d.svg",
+    "static/media/instagram.svg": "/Final-project/static/media/instagram.5e2b648657a719393fb688b4195d5b17.svg",
+    "static/media/twitter.svg": "/Final-project/static/media/twitter.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
     "index.html": "/Final-project/index.html",
+    "static/media/linkedin.svg": "/Final-project/static/media/linkedin.662957f6e2a9519f8eaf9bb88145e483.svg",
+    "static/media/burgerMenu.svg": "/Final-project/static/media/burgerMenu.67204285f932c91a198a0e50378d991f.svg",
+    "static/media/facebook.svg": "/Final-project/static/media/facebook.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
     "main.aa6cbdf7.css.map": "/Final-project/static/css/main.aa6cbdf7.css.map",
-    "main.5dade22d.js.map": "/Final-project/static/js/main.5dade22d.js.map"
+    "main.189aaad6.js.map": "/Final-project/static/js/main.189aaad6.js.map"
   },
   "entrypoints": [
     "static/css/main.aa6cbdf7.css",
-    "static/js/main.5dade22d.js"
+    "static/js/main.189aaad6.js"
   ]
 }
