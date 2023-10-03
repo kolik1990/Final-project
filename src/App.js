@@ -90,7 +90,7 @@ function App() {
   useEffect(() => {
     if (search.length > 0) {
       const resultFiler = productsOfCategory.filter((product) =>
-        product.title.toLowerCase().includes(search)
+        product.title.toLowerCase().includes(search.toLowerCase())
       );
       setProductsOfCategory(resultFiler);
     } else {

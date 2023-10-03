@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./comingSoon.css";
+import comingSoon from "./comingSoon.png";
 
 function ComingSoon() {
   return (
@@ -8,8 +9,8 @@ function ComingSoon() {
       <div className="container">
         <div className="comingSoon__wrap">
           <img
-            src="./images/comingSoon.png"
-            alt="cominSoon"
+            src={comingSoon}
+            alt="comingSoon"
             className="comingSoon__img"
           ></img>
           <Link to="/">

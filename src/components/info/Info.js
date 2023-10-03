@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./info.css";
-
+import info from "./info.png";
 function Info() {
   return (
     <section className="info">
@@ -22,7 +22,7 @@ function Info() {
           </button>
         </Link>
       </div>
-      <img src="./images/info.png" alt="info"></img>
+      <img src={info} alt="info"></img>
     </section>
   );
 }

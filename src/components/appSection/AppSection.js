@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./appSection.css";
+import appStore from "./appStore.svg";
+import googlePlay from "./googlePlay.svg";
+import app from "./mobileApp.png";
+
 function AppSection() {
   return (
     <section className="app__section">
@@ -11,14 +15,14 @@ function AppSection() {
         </p>
         <div className="app__links">
           <Link to="https://www.apple.com/ru/app-store/">
-            <img src="./images/appStore.svg" alt="appStore"></img>
+            <img src={appStore} alt="appStore"></img>
           </Link>
           <Link to="https://play.google.com/store/apps">
-            <img src="./images/googlePlay.svg" alt="googlePlay"></img>
+            <img src={googlePlay} alt="googlePlay"></img>
           </Link>
         </div>
       </div>
-      <img className="app__image" src="./images/mobileApp.png" alt="app"></img>
+      <img className="app__image" src={app} alt="app"></img>
     </section>
   );
 }

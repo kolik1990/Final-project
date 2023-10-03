@@ -1,6 +1,8 @@
 import React from "react";
 import Brands from "../../components/brands/Brands";
 import "./aboutUs.css";
+import aboutUs from "./aboutUs.png";
+import brands from "./brands2.jpg";
 
 function AboutUs() {
   return (
@@ -8,18 +10,13 @@ function AboutUs() {
       <div className="container">
         <Brands />
         <div className="aboutUs__wrap">
-          {" "}
           <p>
             "Welcome to our fake online store, store "Open," where you will
             always find the best deals and high-quality products! Our store is a
             place where your satisfaction and confidence in every purchase are
             valued.
           </p>
-          <img
-            className="aboutUsImg"
-            src="./images/aboutUs.png"
-            alt="aboutUs"
-          ></img>
+          <img className="aboutUsImg" src={aboutUs} alt="aboutUs"></img>
           <p>
             We take pride in providing the highest quality products. We are
             accountable for every item we sell and ensure that it meets the
@@ -54,11 +51,7 @@ function AboutUs() {
             </li>
           </ul>
         </div>
-        <img
-          className="aboutUsBrands"
-          src="./images/brands2.jpg"
-          alt="brands"
-        ></img>
+        <img className="aboutUsBrands" src={brands} alt="brands"></img>
       </div>
     </div>
   );
